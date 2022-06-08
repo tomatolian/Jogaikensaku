@@ -1,0 +1,17 @@
+{
+    "name": "Google Search Pro",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Easy detailed search",
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "storage"
+    ],
+    "browser_action":{
+      "default_icon":{
+        "16":"img/rogo.png"
+      },
+      "default_popup":"main.html"
+    }
+  }

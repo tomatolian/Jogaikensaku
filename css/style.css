@@ -1,0 +1,64 @@
+body {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+}
+.reg-button{
+    position: relative;
+    margin-top: 5px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 50px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.ser-button {
+    position: relative;
+    margin-top: 5px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 50px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.list {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 195px;
+    height: 200px;
+    overflow-y: scroll;
+    border: solid 0.5px;
+    margin-bottom: 10px;
+}
+.item{
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list p {
+    display: inline-block;
+}
+.close {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.link{
+    transform: translate(50%,25%);
+}
+.block{
+    width: 195px;
+    height: 30px;
+    border: solid 1px;
+}
+.search{
+    width: 195px;
+    height: 30px;
+    border: solid 1px;
+}
